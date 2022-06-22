@@ -1,0 +1,17 @@
+.container,
+.container-fluid {
+    height: 100px;
+}
+
+.row,
+.box {
+    height: 100%;
+}
+
+.box {
+    background-color: #006cfa;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    border: 1px dashed plum;
+}

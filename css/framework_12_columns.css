@@ -6,17 +6,24 @@
 
 .container {
     max-width: 1170px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .container-fluid {
     max-width: 100%;
+    width: 100%;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0.5rem 0rem;
+}
+
+[class*=col-] {
+    flex: 0 0 auto;
 }
 
 /* Columns */
