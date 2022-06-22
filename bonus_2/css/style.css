@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -11,12 +11,8 @@
 
 .row,
 .box {
-    height: 100%;
-}
-
-.box,
-.nested {
-    margin: 1px;
+    height: 100px;
+    width: 100%;
 }
 
 .box {
@@ -30,6 +26,27 @@
     background-color: green;
 }
 
-.row .row {
-    padding: 5px;
+/* Alignment */
+.flex {
+    display: flex;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.jc-space-between {
+    justify-content: space-between;
 }

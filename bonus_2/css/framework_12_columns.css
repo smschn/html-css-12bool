@@ -1,13 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
-
-.container {
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 .container-fluid {
@@ -19,7 +13,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0.5rem 0rem;
 }
 
 /* Columns */
