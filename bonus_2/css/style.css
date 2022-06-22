@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.container-fluid {
-    height: 100px;
-}
-
 .row,
 .box {
     height: 100px;
@@ -29,13 +25,13 @@
 .box2 {
     background-color: #006cfa;
     color: #fff;
-    line-height: 100px;
+    line-height: 50px;
     text-align: center;
     height: 50px;
     width: 100%;
 }
 
-/* Alignment */
+/* Alignment section */
 .jc-start {
     justify-content: flex-start;
 }
@@ -48,7 +44,19 @@
     justify-content: flex-end;
 }
 
-/* Justify content */
+.ai-f-start {
+    align-items: flex-start;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-flex-end {
+    align-items: flex-end;
+}
+
+/* Justify content section */
 .jc-space-around {
     justify-content: space-around;
 }
@@ -67,6 +75,10 @@
 }
 
 /* Margin */
+.m-top-bot-big {
+    margin: 50px 0px;
+}
+
 .m-top-bot {
     margin: 5px 0px;
 }
