@@ -13,6 +13,7 @@
 .box {
     height: 100px;
     width: 100%;
+    
 }
 
 .box {
@@ -23,7 +24,8 @@
 }
 
 .nested {
-    background-color: green;
+    background-color: #00db62;
+    height: 80px;
 }
 
 /* Alignment */
@@ -43,10 +45,16 @@
     justify-content: flex-start;
 }
 
+/* Justify content */
 .jc-space-around {
     justify-content: space-around;
 }
 
 .jc-space-between {
     justify-content: space-between;
+}
+
+.jc-space-around,
+.jc-space-between {
+    padding: 10px;
 }
