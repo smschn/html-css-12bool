@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-.container,
 .container-fluid {
     height: 100px;
 }
@@ -13,7 +12,6 @@
 .box {
     height: 100px;
     width: 100%;
-    
 }
 
 .box {
@@ -54,6 +52,16 @@
     justify-content: space-between;
 }
 
+/* Padding */
+.row .col-8,
+.row .col-4,
+.row.first-nested .col-2,
+.row.first-nested .col-8,
+.row.first-nested .col-6 {
+    padding: 0px 1px;
+}
+
+.row.first-nested,
 .jc-space-around,
 .jc-space-between {
     padding: 10px;
