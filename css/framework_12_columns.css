@@ -23,9 +23,15 @@
 }
 
 /* Columns */
+/* .col {
+    flex-grow: 1;
+    flex-basis: 0; 
+    max-width: 100%;
+} -> general adaptive column: it will automatically take all the remaining space in a row */
+
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1); /* -> max-width used to prevent graphic bugs */
 }
 
 .col-2 {
@@ -129,5 +135,5 @@
 }
 
 /* .col-offset-12 {
-    margin-left: calc((100% / 12) * 12); -> Useless: it creates a blank row.
-} */
+    margin-left: calc((100% / 12) * 12);
+} -> useless: it creates a blank row */
