@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container,
 .container-fluid {
     height: 100px;
@@ -6,6 +12,11 @@
 .row,
 .box {
     height: 100%;
+}
+
+.box,
+.nested {
+    margin: 1px;
 }
 
 .box {
@@ -17,5 +28,8 @@
 
 .nested {
     background-color: green;
-    height: 80%;
+}
+
+.row .row {
+    padding: 5px;
 }
