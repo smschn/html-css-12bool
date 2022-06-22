@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main {
+    margin-top: 5rem;
+}
+
 .container,
 .container-fluid {
     height: 100px;
@@ -14,22 +18,18 @@
     height: 100%;
 }
 
-.box,
-.nested {
-    margin: 1px;
-}
-
 .box {
-    background-color: #006cfa;
-    color: #fff;
-    line-height: 100px;
-    text-align: center;
+    border: 1px solid #000;
 }
 
-.nested {
-    background-color: green;
+.bg-dark-green {
+    background-color: #090;
 }
 
-.row .row {
-    padding: 5px;
+.bg-light-green {
+    background-color: #95b90b;
+}
+
+.bg-black {
+    background-color: #000;
 }
