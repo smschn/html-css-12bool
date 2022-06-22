@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container,
+.container-fluid {
+    height: 100px;
+}
+
+.row,
+.box {
+    height: 100%;
+}
+
+.box,
+.nested {
+    margin: 1px;
+}
+
+.box {
+    background-color: #006cfa;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+}
+
+.nested {
+    background-color: green;
+}
+
+.row .row {
+    padding: 5px;
+}
