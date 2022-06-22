@@ -22,10 +22,6 @@
     margin: 0.5rem 0rem;
 }
 
-[class*=col-] {
-    flex: 0 0 auto;
-}
-
 /* Columns */
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
